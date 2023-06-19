@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="tw">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="CSS/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Hello, world!</title>
+</head>
+<button type="button" id="BackTop" class="toTop-arrow"></button>
+<script>
+    $(function () {
+        $('#BackTop').click(function () {
+            $('html,body').animate({ scrollTop: 0 });
+        });
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 300) {
+                $('#BackTop').fadeIn(222);
+            } else {
+                $('#BackTop').stop().fadeOut(222);
+            }
+        }).scroll();
+    });
+</script>
+<body>
+    <nav class="navbar navbar-expand-lg  navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">士豪作品集</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse w-75 " id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <li class="nav-item">
+                    <a class="nav-link active"  href="#PS-1-10">PhotoShop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active"  href="#Ai-2-10">Illustrator</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active"  href="#Xd-3-2">UI/UX設計</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active"  href="#Rwd-4-2">RWD 前端網頁建置</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="row row-cols-1 row-cols-md-2 g-4 mx-2 my-2">
+            <div class="col">
+                <div class="card">
+                    <img src="img/1-10_封面.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/1-10_目錄.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 g-4 mx-2" id="PS-1-10">
+            <div class="col">
+                <div class="card">
+                    <img src="img/1-10_影像視覺設計-03.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/1-10_影像視覺設計-04.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/1-10_影像視覺設計-05.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/1-10_影像視覺設計-06.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/1-10_影像視覺設計-07.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/1-10_影像視覺設計-08.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/1-10_影像視覺設計-09.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/20-30_影像視覺設計-01.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/20-30_影像視覺設計-02.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/20-30_影像視覺設計-03.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 g-4 mx-2" id="Ai-2-10">
+            <div class="col">
+                <div class="card">
+                    <img src="img/11-20_向量視覺設計-01.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/11-20_向量視覺設計-02.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/11-20_向量視覺設計-03.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/11-20_向量視覺設計-04.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/11-20_向量視覺設計-05.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/11-20_向量視覺設計-06.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/20-30_向量視覺設計-04.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/20-30_向量視覺設計-05.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/20-30_向量視覺設計-06.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/20-30_向量視覺設計-07.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/20-30_向量視覺設計-08.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/20-30_向量視覺設計-09.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/20-30_向量視覺設計-10.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 g-4 mx-2 my-2" id="Xd-3-2">
+            <div class="col">
+                <div class="card">
+                    <img src="img/11-20_UI-UX設計-07.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/11-20_UI-UX設計-08.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 g-4 mx-2 my-2" id="Rwd-4-2">
+            <div class="col">
+                <div class="card">
+                    <img src="img/11-20_RWD前端網頁建置-09.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/11-20_RWD前端網頁建置-10.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+
+</html>
